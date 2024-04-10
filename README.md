@@ -2,6 +2,11 @@
 
 This Rust code demonstrates a simple load balancer implementation using threads and mutexes for synchronization. Let me walk you through it:
 
+## Getting started
+```bash
+cargo run
+```
+
 **LoadBalancer Struct:** This struct represents the load balancer. It contains a vector of server addresses (servers) and a Mutex to synchronize access to the current_index.
 
 **Implementation of LoadBalancer:**
